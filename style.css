@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    padding: auto;
+  }
+  textarea{
+    display: block;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+  }
+  #text-output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 90%;
+  }
