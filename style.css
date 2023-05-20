@@ -1,21 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
   }
   body{
     padding: auto;
+    background-color: #f0ead2;
+    font-family: 'Poppins', sans-serif;
+  }
+  button{
+    padding: 20px;
+    margin: 5vh 46vw;
+    border-radius: 10px;
+    color: #1560bd;
+    font-weight: 700;
+    background-color: #ffdf00;
+    border-color: #ffdf00;
+    font-family: 'Poppins', sans-serif;
   }
   textarea{
-    display: block;
-    height: 10vh;
-    width: 90%;
-    margin: auto;
+    display: inline-block;
+    height: 20vh;
+    width: 40%;
+    color: #1561bdcc; 
+    border-radius: 10px;
+    border-color: #ffdf00;
+    margin-left: 5vw;
+    padding: 10px 0 0 10px;
+    font-family: 'Poppins', sans-serif;
   }
-  h1{
+  
+  header{
+    font-size: 2rem;
+    color: #1560bd;
+    font-weight: 700;
     text-align: center;
+    background-color: #ffdf00;
+    padding: 2vh 0;
   }
-  #text-output{
-    border: 1px solid black;
-    height: 10vh;
-    width: 90%;
+  
+  footer{
+    text-align: center;
+    padding: 5vh 0;
   }
