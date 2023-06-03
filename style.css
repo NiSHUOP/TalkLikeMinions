@@ -21,6 +21,10 @@ h1{
   letter-spacing: 4px;
   color: #ffff;
   text-shadow: 0 0 4px #ba7b0d;
+  transition: letter-spacing 1s;
+}
+h1:hover{
+  letter-spacing: 10px;
 }
 .graphic{
   margin-top: 2vh;
@@ -31,10 +35,22 @@ h1{
 #left-img{
   height: 20vw;
   margin-left: 15vw;
+  transition: 0.8s;
+}
+#left-img:hover{
+  height: 21vw;
+  margin-top: -2vh;
+  margin-left: 12vw;
 }
 #right-img{
   height: 20vw;
   margin-right: 10vw;
+  transition: 0.8s;
+}
+#right-img:hover{
+  height: 21vw;
+  margin-top: -2vh;
+  margin-right: 8vw;
 }
 #btn-translate{
   height: 5vw;
@@ -48,6 +64,12 @@ h1{
   color: #ffff;
   text-shadow: 0 0 4px #f59e0b;
   font-family: 'Cherry Bomb One', cursive;
+  transition: 0.8s;
+}
+#btn-translate:hover{
+  height: 6vw;
+  width: 18vw;
+  font-size: 2.5vw;
 }
 
 
@@ -68,7 +90,14 @@ h1{
   border: 3px solid #134e4a;
   border-radius: 20px;
   font-family: 'Cherry Bomb One', cursive;
+  transition: 0.7s;
 }
+#text-input:hover{
+  width: 42vw;
+  height: 32vh;
+  margin-top: -2vh;
+}
+
 #text-output{
   width: 40vw;
   height: 30vh;
@@ -79,7 +108,14 @@ h1{
   border: 3px solid #134e4a;
   border-radius: 20px;
   font-family: 'Cherry Bomb One', cursive;
+  transition: 0.7s;
 }
+#text-output:hover{
+  width: 42vw;
+  height: 32vh;
+  margin-top: -2vh;
+}
+
 
 
 p{
