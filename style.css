@@ -4,14 +4,32 @@
     margin: 0;
     padding: 0;
   }
+  img{
+    margin: 3vh 0 2vh 0;
+    height: 300px;
+    display: inline-block;
+  }
+  #left-img{
+    float: left;
+    margin-left: 15vw;
+  }
+  #right-img{
+    float: right;
+    margin-right: 12vw;
+  }
   body{
     padding: auto;
     background-color: #f0ead2;
     font-family: 'Poppins', sans-serif;
   }
+  
+  .left-img{
+    margin-left: 10vh;
+  }
   button{
     padding: 20px;
-    margin: 5vh 46vw;
+    margin-top: 20vh;
+    margin-left: 11.5vw;
     border-radius: 10px;
     color: #1560bd;
     font-weight: 700;
@@ -22,13 +40,21 @@
   textarea{
     display: inline-block;
     height: 20vh;
-    width: 40%;
+    width: 36%;
     color: #1561bdcc; 
     border-radius: 10px;
+    background-color: transparent;
     border-color: #ffdf00;
-    margin-left: 5vw;
     padding: 10px 0 0 10px;
     font-family: 'Poppins', sans-serif;
+  }
+  #text-input{
+    float: left;
+    margin-left: 11vw;
+  }
+  #text-output{
+    float: right;
+    margin-right: 11vw;
   }
   
   header{
@@ -38,9 +64,20 @@
     text-align: center;
     background-color: #ffdf00;
     padding: 2vh 0;
+    margin: 0 10vw;
+    border-radius: 0 0 20px 20px;
   }
   
   footer{
     text-align: center;
     padding: 5vh 0;
+    background-color: #ffdf00;
+    margin: 43vh 10vw 0 10vw;
+    border-radius: 20px 20px 0 0;
+  }
+  h2{
+    padding-bottom: 3vh;
+  }
+  p{
+    color: #1560bd;
   }
